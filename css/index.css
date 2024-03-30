@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto';
+}
+.navbar {
+    background-color: #BACEC1;
+    color:#1D3124;
+    font-size: 1.4rem;
+}
+.carousel {
+    /*margin-left: 15px;
+    margin-right: 15px;*/
+    box-shadow:  0 4px 4px 0 rgba(43, 43, 43, 0.2), 0 6px 20px 0 rgba(47, 47, 47, 0.19);
+    border-radius: 4px;
+}
+.card {
+    margin: 12px;
+    padding: 20px;
+    align-items: center;
+    transition: all 0.3s;
+    border-radius: 12px;
+    width: 17rem; 
+    height: 21.5rem;
+    background-color: #BACEC1;
+    box-shadow:  0 4px 4px 0 rgba(43, 43, 43, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card img {
+    border-radius: 4px;
+    margin: 0 auto;
+    height: 80%;
+    width: 80%;
+}
+.card-body a {
+    background-color:#BACEC1;
+    border: none;
+    font-weight: bold;
+    color: #1D3124;
+    font-size: 1.2rem;
+}
+.card-body a:hover {
+    background-color:#E59560;
+    border: none;
+    color: white;
+}
+#dogPaw {
+    display: none;
+}
+.impressum {
+    background-color: #BACEC1;
+    align-items: baseline;
+    text-decoration: none;
+    font-size: 1.2rem;
+} 
+.impressum a {
+    color: #1D3124;
+    text-decoration: none;
+}
