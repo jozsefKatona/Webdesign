@@ -32,7 +32,7 @@
    <title>Hundeschule Schnüffelnase</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg text-center">
+  <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
         <img src="images/logo.png" width="90" height="90">
@@ -46,18 +46,21 @@
             <a class="nav-link" href="about.html">Über uns</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="recommended.html">Empfehlungen</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="gallery.html">Galerie</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="events.html">Termine</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Kontakt</a>
-          </li>
-        </ul>
+           <a class="nav-link" href="recommended.html">Empfehlungen</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="gallery.html">Galerie</a>
+         </li>
+         <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Termine
+           </a>
+           <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Welpentraining</a></li>
+            <li><a class="dropdown-item" href="#">Adult Training</a></li>
+           </ul>
+         </li>
+       </ul>
       </div>
     </div>
   </nav>
@@ -82,37 +85,25 @@
        <span class="carousel-control-next-icon" aria-hidden="true"></span>
        <span class="visually-hidden">Next</span>
      </button>
-   </div>
-  <div class="headline">
-    <h2 class="h2 text-center">Hundeschule Schnüffelnase</h2>
   </div>
-   <div class="row row-cols-3 justify-content-center mt-4 mb-5">
-       <div class="card m-2" style="width: 12rem; background-color: #BACEC1;">
-         <img src="images/puppy.jpg" class="card-img-top" alt="">
-         <div class="card-body">
-           <a href="about.html" class="btn">Über uns</a>
-         </div>
-       </div>
-       <div class="card m-2" style="width: 12rem; background-color: #BACEC1;">
-         <img src="images/puppy.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <a href="recomm.html" class="btn">Empfehlungen</a>
-         </div>
-       </div>
-       <div class="card m-2" style="width: 12rem; background-color: #BACEC1;">
-         <img src="images/puppy.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <a href="#" class="btn">Galerie</a>
-         </div>
-       </div>
-       <div class="card m-2" style="width: 12rem; background-color: #BACEC1;">
-         <img src="images/puppy.jpg" class="card-img-top" alt="...">
-         <div class="card-body">
-           <a href="#" class="btn">Welpen</a>
-         </div>
-       </div>
+  <div class="container">
+    <div class="title text-center">
+      <h2 class="h2 text-center mt-4">Hundeschule Schnüffelnase</h2>
     </div>
-    <div class="canvas">
+    <div class="card mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="images/dogGrass.jpg" class="img-fluid rounded-start" alt="Hund auf einer Wiese">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p clas="card-text" style="text-align: justify;">Bei Schnüffelnase stehen wir für die Förderung einer starken Bindung zwischen Ihnen und Ihrem geliebten Vierbeiner. Egal, ob Sie einen Welpen haben, der die Grundlagen des Gehorsams erlernen soll, einen erwachsenen Hund mit spezifischen Trainingsanforderungen haben oder an der Lösung von Verhaltensproblemen arbeiten müssen - bei Schnüffelnase sind Sie genau richtig.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="canvas mt-5">
       <img id="dogPaw" src="images/dogPaw.png" alt="dog paw" width="120" height="120">
       <canvas id="myCanvas" width="250" height="150"></canvas>
     </div>      

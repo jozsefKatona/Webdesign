@@ -8,6 +8,7 @@ body {
 }
 .card {
     border: none;
+    text-align: justify;
 }
 .impressum {
     background-color: #BACEC1;
