@@ -19,7 +19,7 @@ body {
 .card {
     background-color: #BACEC1;
 }
-.card-text {
+.container p {
     text-align: justify;
 }
 #dogPaw {
