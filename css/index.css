@@ -5,6 +5,7 @@ body {
     background-color: #BACEC1;
     color:#1D3124;
     font-size: 1.4rem;
+    justify-content: center;
 }
 .carousel {
     /*margin-left: 15px;
@@ -14,6 +15,9 @@ body {
 }
 .container h2 {
     color:#1D3124
+}
+.card {
+    background-color: #BACEC1;
 }
 .card-text {
     text-align: justify;
