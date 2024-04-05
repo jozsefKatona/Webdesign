@@ -1,0 +1,55 @@
+body {
+    font-family: 'Roboto';
+}
+.navbar {
+    background-color: #BACEC1;
+    color:#1D3124;
+    font-size: 1.4rem;
+    justify-content: center;
+}
+.title h2 {
+    color:#1D3124
+}
+.title h4 {
+    color: #E59560;
+}
+.card {
+    margin: 12px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 12px;
+    width: 17rem; 
+    height: 21.5rem;
+    background-color: #BACEC1;
+    box-shadow:  0 4px 8px 0 rgba(71, 71, 71, 0.2), 0 6px 20px 0 rgba(39, 39, 39, 0.116);    
+}
+.container p {
+    text-align: justify;
+}
+.row .card-price {
+    font-size: 1.2rem;
+    align-items: flex-start;
+}
+.card-body a {
+    align-items: center;
+}
+.card .btn {
+    background-color: #BACEC1;
+    color: #1D3124;
+    font-weight: 500;
+}
+.card a:hover{
+    background-color: #E59560;
+    color: white;
+    font-weight: 500;
+}
+.impressum {
+    background-color: #BACEC1;
+    align-items: baseline;
+    text-decoration: none;
+    font-size: 1.2rem;
+} 
+.impressum a {
+    color: #1D3124;
+    text-decoration: none;
+}
