@@ -1,6 +1,13 @@
 body {
     font-family: 'Roboto';
 }
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap {
+    padding-bottom: 2.5rem;    
+}
 .navbar {
     background-color: #BACEC1;
     color:#1D3124;
@@ -25,9 +32,11 @@ body {
 #dogPaw {
     display: none;
 }
+#footer {
+    display: block;
+}
 .impressum {
     background-color: #BACEC1;
-    align-items: baseline;
     text-decoration: none;
     font-size: 1.2rem;
 } 

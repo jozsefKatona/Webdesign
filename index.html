@@ -31,63 +31,68 @@
 
    <title>Hundeschule Schnüffelnase</title>
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" width="90" height="90">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="puppyTraining.html">Welpentraining</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="adultTraining.html">Adult Training</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">Über mich</a>
-          </li>
-          <li class="nav-item">
-           <a class="nav-link" href="recommended.html">Empfehlungen</a>
-         </li>
-         <li class="nav-item">
-           <a class="nav-link" href="gallery.html">Galerie</a>
-         </li>
-       </ul>
-     </div>
-    </div>
-  </nav>
-  <div class="container mt-3 col-md-12">
-    <img src="images/dogJumps.jpg" class="img-fluid w-100" alt="...">
-  </div>
-  <div class="container">
-    <div class="title text-center">
-      <h2 class="h2 text-center mt-4">Hundeschule Schnüffelnase</h2>
-    </div>
-    <div class="card mt-5">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="images/dogGrass.jpg" class="img-fluid rounded-start" alt="Hund auf einer Wiese">
+<body class="h-100">
+  <div id="page-container"> 
+    <div id="content-wrap">  
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" width="90" height="90" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="puppyTraining.html">Welpentraining</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="adultTraining.html">Adult Training</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Über mich</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" href="recommended.html">Empfehlungen</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="gallery.html">Galerie</a>
+             </li>
+           </ul>
+         </div>
         </div>
-        <div class="col col-md-8">
-          <div class="card-body">
-            <p clas="card-text">Bei Schnüffelnase stehen wir für die Förderung einer starken Bindung zwischen Ihnen und Ihrem geliebten Vierbeiner. Egal, ob Sie einen Welpen haben, der die Grundlagen des Gehorsams erlernen soll, einen erwachsenen Hund mit spezifischen Trainingsanforderungen haben oder an der Lösung von Verhaltensproblemen arbeiten müssen - bei Schnüffelnase sind Sie genau richtig.</p>
+      </nav>
+      <div class="container mt-3 col-md-12">
+        <img src="images/dogJumps.jpg" class="img-fluid w-100" alt="...">
+      </div>
+      <div class="container col-md-12">
+        <div class="title text-center">
+          <h2 class="h2 text-center mt-4">Hundeschule Schnüffelnase</h2>
+        </div>
+        <div class="card mt-5">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/dogGrass.jpg" class="img-fluid rounded-start" alt="Hund auf einer Wiese">
+            </div>
+            <div class="col col-md-8">
+              <div class="card-body">
+                <p>Bei Schnüffelnase stehen wir für die Förderung einer starken Bindung zwischen Ihnen und Ihrem geliebten Vierbeiner. Egal, ob Sie einen Welpen haben, der die Grundlagen des Gehorsams erlernen soll, einen erwachsenen Hund mit spezifischen Trainingsanforderungen haben oder an der Lösung von Verhaltensproblemen arbeiten müssen - bei Schnüffelnase sind Sie genau richtig.</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+        <div class="canvas mt-5">
+          <img id="dogPaw" src="images/dogPaw.png" alt="dog paw" width="120" height="120">
+          <canvas id="myCanvas" width="1250" height="150"></canvas>
+        </div>
     </div>
   </div>
-    <div class="canvas mt-5">
-      <img id="dogPaw" src="images/dogPaw.png" alt="dog paw" width="120" height="120">
-      <canvas id="myCanvas" width="1250" height="150"></canvas>
-    </div>      
-    <footer class="impressum pt-2 pb-2 mt-3 text-center">
+    <footer class="impressum pt-2 pb-2 text-center">
       <p>&copy; 2024 Hundeschule Schnüffelnase</p>
       <a href="legalNotice.html">Impressum</a>  
     </footer>
+  </div>
 </body>
 </html>
