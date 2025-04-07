@@ -26,6 +26,9 @@ body {
 .card {
     background-color: #BACEC1;
 }
+.row {
+    width: 100%;
+}
 .container p {
     text-align: justify;
 }
